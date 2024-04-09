@@ -1,6 +1,6 @@
 import React from 'react';
 import '../AboutPage.css';
-import equityLinkLogo from '../img/equitylink-logo.png';
+// import equityLinkLogo from '../img/equitylink-logo.png';
 import banner from '../img/AboutUsBanner.jpg';
 import aboutUs1 from '../img/AboutUs1.jpg';
 import aboutUs2 from '../img/AboutUs2.jpg';
@@ -9,7 +9,7 @@ import partnerLogo from '../img/partnerlogo.jpg';
 function AboutUs() {
     return (
       <div className="App">
-          <nav>
+          {/* <nav>
             <div className="logo">
               <a href="index.html"><img src={equityLinkLogo} alt="EquityLink Logo" /></a>
             </div>
@@ -28,7 +28,7 @@ function AboutUs() {
               </select>
               <i className="fas fa-globe"></i>
             </div>
-          </nav>
+          </nav> */}
         <div className="banner">
           <img src={banner} alt="Banner Image" />
           <div className="banner-text">

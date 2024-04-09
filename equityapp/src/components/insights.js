@@ -1,11 +1,11 @@
 import React from 'react';
 
-function funding() {
+function Insights() {
   return (
     <div>
-<p> budgeting</p>
+<p> insights</p>
     </div>
   );
 }
 
-export default funding;
+export default Insights;
