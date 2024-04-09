@@ -1,14 +1,10 @@
 import React from 'react';
+import AboutUs from './components/AboutUs';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-<p> page content</p>
-      </header>
-    </div>
+    <AboutUs />
   );
 }
 
