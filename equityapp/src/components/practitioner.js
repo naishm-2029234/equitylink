@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../img/WelcomePageBanner.jpg';
+import banner from '../img/ToolkitBanner.jpg';
 
 function PractitionerToolkit() {
   return (
