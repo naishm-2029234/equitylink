@@ -45,7 +45,7 @@ nav {
 
 .navbar ul li a {
     text-decoration: none;
-    color: #000; /* Change color as needed */
+    color: #000; 
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: medium;
@@ -79,12 +79,12 @@ nav {
     position: relative;
     text-align: center;
     overflow: hidden;
-    height: 500px; /* Set the height to match your Figma prototype */
+    height: 500px;
 }
 
 .banner img {
     width: 100%;
-    height: 100%; /* Adjust the height to fill the banner */
+    height: 100%; 
     object-fit: cover; /* Ensure the image covers the entire banner */
 }
 
@@ -94,8 +94,8 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    width: 70%; /* Adjust width as needed */
-    max-width: 500px; /* Set maximum width */
+    width: 70%; 
+    max-width: 500px; 
 }
 
 .banner-text h1 {
@@ -111,9 +111,9 @@ nav {
 }
 
 .purpose p {
-    font-family: 'Lato', sans-serif; /* Match the font */
+    font-family: 'Lato', sans-serif; 
     font-size: 20px;
-    padding: 80px 200px; /* Add padding */
+    padding: 80px 200px; 
 }
 
 /* About Us section styling */
@@ -122,17 +122,17 @@ nav {
 }
 
 .about-us h2 {
-    font-family: 'Lato', sans-serif; /* Match the font */
+    font-family: 'Lato', sans-serif; 
     font-size: 48px;
     margin-bottom: 50px;
-    padding: 0 200px; /* Add padding */
+    padding: 0 200px; 
 }
 
 .about-us p {
-    font-family: 'Lato', sans-serif; /* Match the font */
+    font-family: 'Lato', sans-serif; 
     font-size: 20px;
-    padding: 20px 200px 80px; /* Add padding */
-    line-height: 1.5; /* Adjust line height for space between lines */
+    padding: 20px 200px 80px; 
+    line-height: 1.5;
 }
 
 /* Team images styling */
