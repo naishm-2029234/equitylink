@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../img/womanizer-toys-8oB43mw658c-unsplash.jpg';
+import banner from '../img/WelcomePageBanner.jpg';
 
 function PractitionerToolkit() {
   return (
