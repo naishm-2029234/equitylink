@@ -5,7 +5,7 @@ function funding() {
     return (
         <div>
             <div className="banner">
-                <img src={banner} alt="Banner Image"/>
+                <img src={banner} alt="Banner Image" />
                 <div className="banner-text">
                     <h1>BUDGETING</h1>
                 </div>
@@ -13,13 +13,8 @@ function funding() {
 
             <div className="about-us">
                 <p>
-                    Our funding section provides resources to help you access grants for your initiatives, We prioritize
-                    community and
-                    smaller grants, aiming to support less-supported organizers, wve also suggest partnering with
-                    organizations like
-                    Goodwill offices for free program implementation, Explore our funding section for these resources
-                    and use our funding
-                    calculator to estimate your financial needs for your program.
+                  Our funding section provides resources to help you access grants for your initiatives. We prioritize community and smaller grants, aiming to support less-supported organizers. 
+                  We also suggest partnering with organizations like Goodwill offices for free program implementation. Explore our funding section for these resources and use our funding calculator to estimate your financial needs for your program.
                 </p>
             </div>
 
