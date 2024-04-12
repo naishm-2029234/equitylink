@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import Navigation from './components/navbar';
 import FindingResources from './components/findresources';
 import Budgeting from './components/funding';
@@ -16,12 +16,14 @@ const App = () => {
                 <Navigation />
                 <Routes>
                     {/* <Route path="/findresources" element={<FindingResources />} /> */}
+                    <Route path="/" element={<Homepage />} />
                     <Route path="/funding" element={<Budgeting />} />
                     <Route path="/practitioner" element={<PractitionerToolkit />} />
                     <Route path="/AboutUs" element={<AboutUs />} />
                     <Route path="/homepage" element={<Homepage />} />
                     <Route path="/interactivemap" element={<Interactivemap />} /> 
                     <Route path="/insights" element={<Insights />} />
+                    <Route path="/" element={<Homepage />} />
                 </Routes>
             </div>
         </Router>

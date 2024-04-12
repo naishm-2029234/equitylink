@@ -1,7 +1,8 @@
 import React from 'react';
-import '../AboutPage.css';
+import '../interactivemap.css';
 
 import banner from '../img/resourcebanner.jpg';
+import MapComponent from './MapComponent'; // Import the MapComponent
 
 function Interactivemap() {
     return (
@@ -27,10 +28,12 @@ Click on a marker to view details about a specific location.
 Use the zoom and pan features to explore different areas.
 Filter the map by selecting specific categories (libraries, community centers, non-profits) using the options provided.
           </p>
-    
-        </div>
+          <div className="map-container">
+                <MapComponent />
+            </div>        
+            </div>
       </div>
     );
-  }
-  
-  export default Interactivemap;
+}
+
+export default Interactivemap;

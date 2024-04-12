@@ -1,0 +1,11 @@
+/* MapComponent.css */
+
+.map-container {
+    width: 800px; /* Set the width of the map container */
+    height: 600px; /* Set the height of the map container */
+    margin: 20px auto; /* Center the map container horizontally with top and bottom margin */
+    border: 1px solid #ccc; /* Add a border around the map container */
+    border-radius: 8px; /* Add some border radius for rounded corners */
+    overflow: hidden; /* Hide any content that overflows the map container */
+}
+
