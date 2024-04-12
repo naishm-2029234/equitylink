@@ -50,6 +50,14 @@ nav {
     font-size: 20px;
     font-weight: medium;
 }
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alignright  {
+    float: right;
+}
 
 .language {
     margin-left: auto;
