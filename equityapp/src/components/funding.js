@@ -28,15 +28,27 @@ function funding() {
                     <h1 className="bold">Budgeting Calculator</h1>
                 </div>
             </div>
-            <div className="bo">
+            <div className="centered">
                 <h2>Best Use For Funding</h2>
                 <ul className="list">
-                    <li className="list-item">Assess Community Needs</li>
-                    <li className="list-item">Invest in Training Programs</li>
-                    <li className="list-item">Provide Access to Technology</li>
-                    <li className="list-item">Offer Language-Specific Resources</li>
-                    <li className="list-item">Support Community Engagement</li>
-                    <li className="list-item">Collaborate with Local Organizations</li>
+                    <li className="list-item">Assess Community Needs
+                        <div className="alignright">+</div>
+                    </li>
+                    <li className="list-item">Invest in Training Programs
+                        <div className="alignright">+</div>
+                    </li>
+                    <li className="list-item">Provide Access to Technology
+                        <div className="alignright">+</div>
+                    </li>
+                    <li className="list-item">Offer Language-Specific Resources
+                        <div className="alignright">+</div>
+                    </li>
+                    <li className="list-item">Support Community Engagement
+                        <div className="alignright">+</div>
+                    </li>
+                    <li className="list-item">Collaborate with Local Organizations
+                        <div className="alignright">+</div>
+                    </li>
                 </ul>
             </div>
         </div>
