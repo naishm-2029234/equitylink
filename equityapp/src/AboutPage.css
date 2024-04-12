@@ -151,6 +151,16 @@ nav {
     margin-top: 100px;
 }
 
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
 .our-partners h2 {
     font-family: 'Lato', sans-serif; /* Match the font */
     font-size: 48px;
@@ -223,3 +233,19 @@ nav {
   .learn-more:hover {
     background-color: #EDE5DE;
   }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
