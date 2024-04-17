@@ -28,7 +28,7 @@ Click on a marker to view details about a specific location.
 Use the zoom and pan features to explore different areas.
 Filter the map by selecting specific categories (libraries, community centers, non-profits) using the options provided.
           </p>
-          <div className="map-container">
+          <div className="map-container-inpage">
                 <MapComponent />
             </div>        
             </div>

@@ -21,9 +21,9 @@ export function initializeMap() {
                 L.geoJSON(data, {
                     style: function(feature) {
                         return {
-                            color: 'purple',
-                            weight: 2, 
-                            fillOpacity: 0.1 
+                            color: 'purple', // Boundary color
+                            weight: 2, // Boundary weight
+                            fillOpacity: 0.1 // Boundary fill opacity
                         };
                     }
                 }).addTo(map);
