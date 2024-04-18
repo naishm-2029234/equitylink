@@ -20,7 +20,7 @@ function PractitionerToolkit() {
       <div className="banner">
         <img src={banner} alt="Banner Image" />
         <div className="banner-text">
-          <h1>Practitioner Toolkit</h1>
+          <h1>PRACTITIONER TOOLKIT</h1>
         </div>
       </div>
       
