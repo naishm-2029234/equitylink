@@ -1,10 +1,10 @@
-.practitioner-container {
+/* .practitioner-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   justify-items: center;
 }
-
+*/
 .practitioner-banner {
   /* Add styles for the banner */
 }
@@ -16,7 +16,7 @@
 .practitioner-about-us {
   /* Add styles for the about us section */
 }
-
+/* 
 .cards {
   border: 1px solid #ccc;
   width: 50px;
@@ -25,8 +25,9 @@
   justify-content: center;
   align-items: center;
 }
-
+*/
 /* Style the dropdown button */
+/* 
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -35,8 +36,9 @@
   border: none;
   cursor: pointer;
 }
-
+*/
 /* Style the dropdown content (hidden by default) */
+/*
 .dropdown-content {
   display: none;
   position: absolute;
@@ -45,8 +47,9 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
+*/
 /* Style the images and text inside the dropdown */
+/*
 .image {
   padding: 10px;
 }
@@ -59,20 +62,104 @@
 .image p {
   margin-top: 5px;
 }
-
+*/
 
 /* Adjust the image size and formation */
+/*
 .gallery {
-  display: grid !important; /* Use !important to override conflicting styles */
-  grid-template-columns: repeat(2, 1fr) !important; /* Adjust formation */
-  grid-gap: 20px !important; /* Adjust gap between images */
+  display: grid !important; 
+  grid-template-columns: repeat(2, 1fr) !important; 
+  grid-gap: 20px !important; 
 }
 
 .gallery-item img {
-  width: 100% !important; /* Make images fill their containers */
-  height: auto !important; /* Maintain aspect ratio */
-  max-height: 400px !important; /* Adjust maximum height as needed */
+  width: 100% !important; 
+  height: auto !important; 
+  max-height: 400px !important; 
+}
+*/
+
+
+/*** Revision General card styles ***/
+
+/* Card container */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create 2 columns of equal width */
+  gap: 30px; /* Add space between cards */
+  row-gap: 70px;
+  margin: 0 auto; /* Center the card container horizontally */
+  padding: 20px 230px; /* Add padding around the card container */
+  justify-content: center;
+  
+}
+/* Card image */
+.card-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
-/* Original Flexbox formatting */
+/* Card content */
+.card-content {
+  padding: 25px;
+}
+
+/* Card info (type and date) */
+.card-info {
+  display: flex;
+  flex-direction: column; /* Arrange type and date in a column */
+  gap: 10px; /* Add some space between the type and date */
+  margin-bottom: 15px; /* Add some space between card info and title */
+}
+
+.type {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  padding: 2px 8px; /* Adjusted padding */
+  background-color: lightgray; /* Grey background */
+  display: inline-block; /* Changed to inline to wrap around the content */
+  margin-bottom: 10px; /* Space below the type */
+  max-width: fit-content;
+}
+
+.date {
+  font-family: 'Lato', sans-serif; 
+  font-size: 15px;
+  color: grey;
+}
+
+/* Title and description */
+.title {
+  font-family: 'Lato', sans-serif; 
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: 'Lato', sans-serif; 
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+/* Continue reading section */
+.continue-reading {
+  font-family: 'Lato', sans-serif; 
+  text-align: right;
+}
+
+.continue-link {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 15px;
+}
