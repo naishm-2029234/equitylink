@@ -82,7 +82,65 @@ nav {
     display: inline;
     margin-right: 30px;
 }
+.budgeting-guidance {
+  margin-top: 20px;
+}
 
+.budgeting-guidance h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.budgeting-guidance p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.budgeting-guidance ol {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.budgeting-guidance ul {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.budgeting-guidance li {
+  margin-bottom: 5px;
+}
+
+.budgeting-guidance table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.budgeting-guidance th {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.budgeting-guidance td {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.budgeting-guidance th:first-child,
+.budgeting-guidance td:first-child {
+  text-align: left;
+}
+
+.budgeting-guidance th:last-child,
+.budgeting-guidance td:last-child {
+  text-align: right;
+}
 .banner {
     position: relative;
     text-align: center;
@@ -286,7 +344,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .box {
