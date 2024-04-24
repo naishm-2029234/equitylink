@@ -183,6 +183,45 @@ const Map = () => {
           ],
           "type": "Polygon"
         }
+      },
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                -118.32286601514267,
+                46.30042953239732
+              ],
+              [
+                -118.32240916572194,
+                46.294717099061444
+              ],
+              [
+                -118.31235473647712,
+                46.29506170150748
+              ],
+              [
+                -118.30267484762793,
+                46.29554985101055
+              ],
+              [
+                -118.30562676184175,
+                46.3032128472278
+              ],
+              [
+                -118.32294908608708,
+                46.30375902997065
+              ],
+              [
+                -118.32286601514267,
+                46.30042953239732
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        }
       }
     ]
   }
@@ -201,9 +240,9 @@ const Map = () => {
 
     L.geoJSON(tricitiesData, {
       style: {
-        color: 'blue',
+        color: 'yellow',
         weight: 2,
-        opacity: 1
+        opacity: .5
       }
     }).addTo(mapRef.current);
 
@@ -311,7 +350,7 @@ const disabilityServices = [
         name: 'Washington State University Tri-Cities',
         description: 'Public research university',
         link: 'https://tricities.wsu.edu/',
-        coordinates: [46.2637, -119.1245],
+        coordinates: [46.3338995, -119.2673305],
         address: '2710 Crimson Way, Richland, WA 99354',
         tags: 'Education, Research, College, University, Computer Access, Charging Stations',
         type: 'Educational Institutions'
@@ -545,13 +584,6 @@ const handleCommunityServicesOfficesChange = () => {
 
       <div className="sidebar-container">  
       <div className="filter-container">
-        {/* <div className='filter-header'>Services offered</div>
-        <div id="filter-options">
-          <label className="toggle-label"><input type="checkbox" name="vocational-services" /> Vocational Services</label>
-          <label className="toggle-label"><input type="checkbox" name="technology-lending" /> Technology Lending</label>
-          <label className="toggle-label"><input type="checkbox" name="technology-charging" /> Technology Charging</label>
-          <label className="toggle-label"><input type="checkbox" name="internet-hotspots" /> Internet Hotspots</label>
-        </div> */}
       </div>
 
       <div className='toggle-container' >

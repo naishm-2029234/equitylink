@@ -121,27 +121,10 @@ nav {
 .purpose p {
     font-family: 'Lato', sans-serif; 
     font-size: 20px;
-    padding: 80px 200px; 
+    padding: 10px 200px; 
 }
 
-/* About Us section styling */
-.about-us {
-    margin-top: 50px;
-}
 
-.about-us h2 {
-    font-family: 'Lato', sans-serif; 
-    font-size: 48px;
-    margin-bottom: 50px;
-    padding: 0 200px; 
-}
-
-.about-us p {
-    font-family: 'Lato', sans-serif; 
-    font-size: 20px;
-    padding: 20px 200px 80px; 
-    line-height: 1.5;
-}
 
 /* Team images styling */
 .team-images {
@@ -259,7 +242,7 @@ nav {
 }
 
 #map-container {
-    width: 500px; /* Set the width of the map container */
+    width: 100%; /* Set the width of the map container */
     height: 300px; /* Set the height of the map container */
     margin: 0 auto; /* Center the map container horizontally */
     margin-top: 20px; /* Add some top margin to separate it from the text */
@@ -268,3 +251,28 @@ nav {
     border-radius: 2px;
     border-color: #000;
 }
+
+ul{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+p{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.map-container-inpage{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  li {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
