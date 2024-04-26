@@ -36,6 +36,8 @@ function Interactivemap() {
           relevant resources using the interactive map. This saves time and effort in researching and locating essential infrastructure for program development.</li>
           <li><strong>Strategic Planning:</strong> Access detailed information about resources to ensure inclusivity and accessibility for all community members.</li>
           <li><strong>Community Collaboration:</strong> identify local organizations and agencies to foster collaboration and partnerships in program development.</li>
+          <li><strong>User-Friendly Interface:</strong> Access to information such as address details and tags enables to ensure inclusivity in
+          programming. Select resources located in accessible areas and offer services tailored to the diverse needs of the community.</li>
         </ul>
           <ul>
           <h3>Community Advocates</h3>
