@@ -203,6 +203,7 @@ nav {
     font-size: 20px;
     padding: 20px 200px 80px; 
     line-height: 1.5;
+    text-align: center;
 }
 
 /* Team images styling */
@@ -355,3 +356,5 @@ nav {
 .bold {
     font-weight: bold;
 }
+
+
