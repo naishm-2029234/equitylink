@@ -13,6 +13,13 @@ import Papa from 'papaparse';
 const Map = () => {
   const mapRef = useRef(null);
   const [markers, setMarkers] = useState([]); // State to hold marker data
+  const [showLibraries, setShowLibraries] = useState(true); // State to toggle libraries visibility
+  const [showCommunityServicesOffices, setShowCommunityServicesOffices] = useState(true);
+  const [showLibrarie, setShowLibrarie] = useState(true);
+  const [showVocationalAndSocialServices, setShowVocationalAndSocialServices] = useState(true);
+  const [showDisabilityServices, setShowDisabilityServices] = useState(true);
+  const [showEducationalInstitutions, setShowEducationalInstitutions] = useState(true);
+  
 
   const tricitiesData = {
     "type": "FeatureCollection",
@@ -244,7 +251,10 @@ const Map = () => {
     // Parse CSV data and set markers state
     parseCSVData();
   }, []);
-
+  const handleCheckboxChange = (category, setShowCategory) => {
+    setShowCategory(prevState => !prevState);
+  };
+  
   const parseCSVData = async () => {
     try {
       const response = await fetch(markersData);
@@ -324,11 +334,26 @@ const Map = () => {
       <div className='toggle-container' >
       <div className='filter-header'>Location Type</div>
       <div>
-      {/* <label className="toggle-label"><input type="checkbox" checked={showLibraries} onChange={handleLibrariesChange} />Libraries</label>
-      <label className="toggle-label"><input type="checkbox" checked={showCommunityServicesOffices} onChange={handleCommunityServicesOfficesChange} />Community Services Offices</label>
-        <label className="toggle-label"><input type="checkbox" checked={showVocationalAndSocialServices} onChange={handleVocationalAndSocialServicesChange} />Vocational and Social Services</label>
-        <label className="toggle-label"><input type="checkbox" checked={showDisabilityServices} onChange={handleDisabilityServicesChange} />Disability Services</label>
-        <label className="toggle-label"><input type="checkbox" checked={showEducationalInstitutions} onChange={handleEducationalInstitutionsChange} />Educational Institutions</label> */}
+      <label>
+          <input type="checkbox" checked={showLibraries} onChange={() => handleCheckboxChange('Libraries', setShowLibraries)} />
+          Libraries
+        </label>
+        <label>
+          <input type="checkbox" checked={showCommunityServicesOffices} onChange={() => handleCheckboxChange('Community Services Offices', setShowCommunityServicesOffices)} />
+          Community Services Offices
+        </label>
+        <label>
+          <input type="checkbox" checked={showVocationalAndSocialServices} onChange={() => handleCheckboxChange('Vocational and Social Services', setShowVocationalAndSocialServices)} />
+          Vocational and Social Services
+        </label>
+        <label>
+          <input type="checkbox" checked={showDisabilityServices} onChange={() => handleCheckboxChange('Disability Services', setShowDisabilityServices)} />
+          Disability Services
+        </label>
+        <label>
+          <input type="checkbox" checked={showEducationalInstitutions} onChange={() => handleCheckboxChange('Educational Institutions', setShowEducationalInstitutions)} />
+          Educational Institutions
+        </label>
 
       </div>
       </div>

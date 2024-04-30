@@ -260,10 +260,10 @@ ul{
     
 }
 
-p{
+/* p{
     padding-right: 200px;
     padding-left: 200px;
-}
+} */
 
 .map-container-inpage{
     display: flex;
