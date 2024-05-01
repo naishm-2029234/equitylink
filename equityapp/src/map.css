@@ -1,7 +1,7 @@
 /* MapContainer */
 .map-container {
   width: 1000px;
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -61,6 +61,17 @@
   font-size: 14px;
   padding-left: 5px;
 }
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-container label {
+  margin-bottom: 5px;
+}
+
+
 .filter-header {
   display: flex; /* Use flexbox to make the headers span across */
   justify-content: space-between; /* Align items equally at each end */
@@ -71,4 +82,43 @@
   width: 100%; /* Adjust width to account for padding */
   background-color: #292c63 ;
   color: white;
+}
+
+.cardview-container {
+  width: 250px;
+  height: 300px;
+}
+.card-view-container {
+  width: 250px;
+  height: 100%;
+  overflow-y: auto;
+}
+.card-list {
+  width: 100%; /* Make the card list fill the container width */
+  padding: 10px; /* Adjust padding as needed */
+ 
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  margin: 10px;
+  height: 100%; /* Ensure the card fills the entire height of its container */
+  overflow-y: auto;
+  box-sizing: border-box; /* Include padding and border in the card's total width and height */
+  align-items: center;
+}
+
+.card p {
+  padding: 1px; /* Add padding as needed */
+  font-size: 10px;
+  margin: 1px 0; 
+  
+  /* You can also adjust other styles like font size, color, etc. */
+}
+
+.card h3{
+  font-size: 12px;
+  align-self: center;
 }

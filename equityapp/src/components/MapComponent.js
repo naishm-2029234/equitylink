@@ -9,17 +9,19 @@ import vocationalicon from '../img/icons/vocational.png';
 import disabilityofficeicon from '../img/icons/disabilityoffice.png';
 import markersData from './markerdatabase.csv'; // Import CSV data
 import Papa from 'papaparse';
+import CardView from './CardViewmap';
+// import '../interactivemap.css';
 
 const Map = () => {
   const mapRef = useRef(null);
   const [markers, setMarkers] = useState([]); // State to hold marker data
   const [showLibraries, setShowLibraries] = useState(true); // State to toggle libraries visibility
   const [showCommunityServicesOffices, setShowCommunityServicesOffices] = useState(true);
-  const [showLibrarie, setShowLibrarie] = useState(true);
   const [showVocationalAndSocialServices, setShowVocationalAndSocialServices] = useState(true);
   const [showDisabilityServices, setShowDisabilityServices] = useState(true);
   const [showEducationalInstitutions, setShowEducationalInstitutions] = useState(true);
-  
+  const [filteredMarkers, setFilteredMarkers] = useState([]); // State to hold filtered markers
+
 
   const tricitiesData = {
     "type": "FeatureCollection",
@@ -250,7 +252,9 @@ const Map = () => {
 
     // Parse CSV data and set markers state
     parseCSVData();
-  }, []);
+  }, [showLibraries, showCommunityServicesOffices,
+    showVocationalAndSocialServices, showDisabilityServices,
+    showEducationalInstitutions]);
   const handleCheckboxChange = (category, setShowCategory) => {
     setShowCategory(prevState => !prevState);
   };
@@ -271,7 +275,7 @@ const Map = () => {
             const name = row['Name'];
             const tag = row['Tag'];
             const link = row['Link'];
-            console.log('Marker Data:',category, name, tag, link); // Log marker data
+            console.log('Marker Data:', category, name, tag, link); // Log marker data
   
             // Check if latitude and longitude are valid numbers
             if (!isNaN(latitude) && !isNaN(longitude)) {
@@ -290,7 +294,25 @@ const Map = () => {
             }
           }).filter(marker => marker !== null); // Remove markers with invalid coordinates
   
-          setMarkers(markers);
+          // Filter markers based on checkbox selection
+          const filteredMarkers = markers.filter(marker => {
+            switch (marker.category) {
+              case 'Libraries':
+                return showLibraries;
+              case 'Community Services Offices':
+                return showCommunityServicesOffices;
+              case 'Vocational and Social Services':
+                return showVocationalAndSocialServices;
+              case 'Disability Services':
+                return showDisabilityServices;
+              case 'Educational Institutions':
+                return showEducationalInstitutions;
+              default:
+                return true;
+            }
+          });
+  
+          setFilteredMarkers(filteredMarkers);
   
           // icons per category
           const icons = {
@@ -300,19 +322,25 @@ const Map = () => {
             'Disability Services': L.icon({ iconUrl: disabilityofficeicon, iconSize: [32, 32] }),
             'Educational Institutions': L.icon({ iconUrl: schoolicon, iconSize: [32, 32] }),
           };
-          
-
-          // Create markers on the map
-          markers.forEach(marker => {
+  
+          // Remove existing markers from the map
+          mapRef.current.eachLayer(layer => {
+            if (layer instanceof L.Marker) {
+              mapRef.current.removeLayer(layer);
+            }
+          });
+  
+          // Create markers on the map for filtered markers
+          filteredMarkers.forEach(marker => {
             const icon = icons[marker.category];
             L.marker(marker.coordinates, { icon })
               .bindPopup(`
-              <b>${marker.name}</b><br>
-              ${marker.category}<br>
-              Address: ${marker.address}<br>
-              Tags: ${marker.tag}<br>
-              <a href="${marker.link}" target="_blank">More Info</a>
-            `)
+                <b>${marker.name}</b><br>
+                ${marker.category}<br>
+                Address: ${marker.address}<br>
+                Tags: ${marker.tag}<br>
+                <a href="${marker.link}" target="_blank">More Info</a>
+              `)
               .addTo(mapRef.current);
           });
         },
@@ -324,43 +352,44 @@ const Map = () => {
       console.error('Error fetching CSV data:', error);
     }
   };
+  
 
   return (
     <div className="map-container">
-       <div className="sidebar-container">  
-      <div className="filter-container">
-      </div>
-
-      <div className='toggle-container' >
-      <div className='filter-header'>Location Type</div>
-      <div>
-      <label>
-          <input type="checkbox" checked={showLibraries} onChange={() => handleCheckboxChange('Libraries', setShowLibraries)} />
-          Libraries
-        </label>
-        <label>
-          <input type="checkbox" checked={showCommunityServicesOffices} onChange={() => handleCheckboxChange('Community Services Offices', setShowCommunityServicesOffices)} />
-          Community Services Offices
-        </label>
-        <label>
-          <input type="checkbox" checked={showVocationalAndSocialServices} onChange={() => handleCheckboxChange('Vocational and Social Services', setShowVocationalAndSocialServices)} />
-          Vocational and Social Services
-        </label>
-        <label>
-          <input type="checkbox" checked={showDisabilityServices} onChange={() => handleCheckboxChange('Disability Services', setShowDisabilityServices)} />
-          Disability Services
-        </label>
-        <label>
-          <input type="checkbox" checked={showEducationalInstitutions} onChange={() => handleCheckboxChange('Educational Institutions', setShowEducationalInstitutions)} />
-          Educational Institutions
-        </label>
-
-      </div>
-      </div>
+      <div className="sidebar-container"> 
+        <div className='toggle-container'>
+          <div className='filter-header'>
+            Location Type</div>
+          <div className="checkbox-container">
+            <label>
+              <input type="checkbox" checked={showLibraries} onChange={() => handleCheckboxChange('Libraries', setShowLibraries)} />
+              Libraries
+            </label>
+            <label>
+              <input type="checkbox" checked={showCommunityServicesOffices} onChange={() => handleCheckboxChange('Community Services Offices', setShowCommunityServicesOffices)} />
+              Community Services Offices
+            </label>
+            <label>
+              <input type="checkbox" checked={showVocationalAndSocialServices} onChange={() => handleCheckboxChange('Vocational and Social Services', setShowVocationalAndSocialServices)} />
+              Vocational and Social Services
+            </label>
+            <label>
+              <input type="checkbox" checked={showDisabilityServices} onChange={() => handleCheckboxChange('Disability Services', setShowDisabilityServices)} />
+              Disability Services
+            </label>
+            <label>
+              <input type="checkbox" checked={showEducationalInstitutions} onChange={() => handleCheckboxChange('Educational Institutions', setShowEducationalInstitutions)} />
+              Educational Institutions
+            </label>
+        </div>
+        <div className="cardview-container">
+            <CardView filteredMarkers={filteredMarkers} />
+        </div>
+        </div>
       </div>
 
       <div className="justmap">
-        <div id="map" style={{ width: '100%', height: '100%' }} />
+        <div id="map" style={{ width: '100%', height: '500px' }} />
       </div>
     </div>
   );
