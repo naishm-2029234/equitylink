@@ -5,7 +5,7 @@ const CardView = ({ filteredMarkers }) => {
     <div className="card-view-container">
       <div className="card-list">
         {filteredMarkers.map((marker, index) => (
-          <div className="card" key={index}>
+          <div className="mapcard" key={index}>
             {/* Render card content here */}
             <h3>{marker.name}</h3>
             <p>Category: {marker.category}</p>

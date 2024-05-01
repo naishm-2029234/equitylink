@@ -99,7 +99,7 @@
  
 }
 
-.card {
+.mapcard {
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border-radius: 5px;
@@ -110,7 +110,7 @@
   align-items: center;
 }
 
-.card p {
+.mapcard p {
   padding: 1px; /* Add padding as needed */
   font-size: 10px;
   margin: 1px 0; 
@@ -118,7 +118,7 @@
   /* You can also adjust other styles like font size, color, etc. */
 }
 
-.card h3{
+.mapcard h3{
   font-size: 12px;
   align-self: center;
 }
