@@ -243,7 +243,7 @@ nav {
 
 #map-container {
     width: 100%; /* Set the width of the map container */
-    height: 300px; /* Set the height of the map container */
+    height: 500px; /* Set the height of the map container */
     margin: 0 auto; /* Center the map container horizontally */
     margin-top: 20px; /* Add some top margin to separate it from the text */
     margin-left: 20px;
