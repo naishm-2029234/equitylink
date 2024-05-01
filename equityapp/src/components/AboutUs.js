@@ -40,13 +40,18 @@ function AboutUs() {
         </div>
         <div className="about-us">
           <h2>About Us</h2>
-          <p>Our team consists of students at the University of Washington. We aim to empower Hispanic communities in the tri-cities 
-              area of Washington that lack access to digital resources such as high-speed Internet, and computer skills. We designed 
-              this site with our underrepresented background users in mind. On our site you will find tools for both digital equity 
-              practitioners and cultural brokers such as steps for implementing digital literacy programs, an interactive map to find 
-              infrastructures such as libraries and nearby non-profit organization offices, a funding calculator to estimate program 
-              cost, and workshops to improve practitioner skills. While some of our features such as our interactive map may be focused 
-              on the tri-cities area, we hope all our users can find helpful information as they navigate bringing digital literacy.</p>
+          <p>Our team, comprised of students from the University of Washington, under the sponsorship of Yekaterina Yefimova, is dedicated to 
+            empowering Hispanic communities in the Tri-Cities area of Washington. These communities often lack access to essential digital resources, 
+            including high-speed Internet and computer skills. With our own experiences as underrepresented backgrounds in mind, 
+            we meticulously designed this website to cater to the needs of our users.</p>
+
+            <p>Within our site, users will discover an array of tools tailored for both digital equity practitioners and cultural brokers. 
+            These include guides for implementing digital literacy programs, an interactive map highlighting crucial infrastructures 
+            like libraries and nearby nonprofit organization offices, budgeting tips, and workshops aimed at enhancing practitioner 
+            skills. While certain features, such as our interactive map, are specific to the Tri-Cities area, we strive to provide 
+            valuable information for all users navigating the realm of digital literacy. It's important to note that our project is 
+            ongoing, with continual updates and improvements underway.</p>
+            
           <div className="team-images">
             <img src={aboutUs1} alt="Team 1" width="50%" style={{ marginRight: '10px' }} />
             <img src={aboutUs2} alt="Team 2" width="50%" />

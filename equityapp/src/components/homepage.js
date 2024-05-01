@@ -4,6 +4,8 @@ import HomepageStep1 from "../img/HomepageStep1.jpg";
 import HomepageStep2 from "../img/HomepageStep2.jpg";
 import HomepageStep3 from "../img/HomepageStep3.jpg";
 import HomepageStep4 from "../img/HomepageStep4.jpg";
+import FooterBanner from './FooterBanner';
+
 function Homepage() {
   return (
     <div>
@@ -38,7 +40,7 @@ function Homepage() {
         <div className="step-content">
           <h3>Finding Resources </h3>
           <p>To find resources such as the nearest non-profit organizations near you, libraries, and skill centers, 
-            you can go to the funding resources tab and filter for which infrastructures you would like to find. </p>
+            you can go to the Interactive Map tab and filter for which infrastructures you would like to find. </p>
           <a href="step2.html" className="learn-more">Learn More</a>
         </div>
         <div className="step-image">
@@ -51,7 +53,7 @@ function Homepage() {
         </div>
         <div className="step-content">
           <h3>Program Budgeting</h3>
-          <p>To get an estimate of how much it may cost to implement a program in your community, you can navigate to the budgeting calculator. </p>
+          <p>To get an estimate of how much it may cost to implement a program in your community, you can navigate to the budgeting page and find some tips. </p>
           <a href="step3.html" className="learn-more">Learn More</a>
         </div>
       </div>
@@ -66,6 +68,7 @@ function Homepage() {
           <img src={HomepageStep4} alt="Step 4" />
         </div>
       </div>
+      <FooterBanner />
     </div>
   );
 }

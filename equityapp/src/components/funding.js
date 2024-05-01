@@ -20,12 +20,6 @@ function funding() {
                   Explore our funding section for these resources and use our funding calculator to estimate your financial needs for your program.
                 </p>
             </div>
-
-            <div class="container">
-                <div class="box">
-                    <h1 class="bold">Budgeting Calculator</h1>
-                </div>
-            </div>
             <div class="centered">
                 <h2>Best Use For Funding</h2>
             </div>
