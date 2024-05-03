@@ -15,7 +15,7 @@ function funding() {
 
             <div class="about-us">
                 <p>
-                  Our funding section provides resources to help you access grants for your initiatives. We prioritize community and smaller grants, aiming to support less-supported organizers.
+                  Our funding section provides resources to help you accessing grants for your initiatives. We prioritize community and smaller grants, aiming to support less-supported organizers.
 		          </br>
                   We also suggest partnering with organizations like Goodwill offices for free program implementation.
                   </br>
