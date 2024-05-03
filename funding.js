@@ -13,7 +13,7 @@ function funding() {
 
             <div className="about-us">
                 <p>
-                    Our funding section provides resources to help you access grants for your initiatives, We prioritize
+                    Our funding section provides resources to help you accessing grants for your initiatives, We prioritize
                     community and
                     smaller grants, aiming to support less-supported organizers, wve also suggest partnering with
                     organizations like
