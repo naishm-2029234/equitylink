@@ -12,7 +12,7 @@ function Homepage() {
        <div className="banner_homepage">
           <img src={WelcomePageBanner} alt="Banner Image" />
           <div className="banner_homepage-text">
-            <h1>CULTIVATE DATA INCLUSION</h1>
+            <h1>BridgeCommunities: Empowering Hispanics in Tri-Cities</h1>
             <p>Our mission is to bridge the digital literacy gap by providing valuable insights, resources, and connections 
             for organizations and community members alike. </p>
           </div>
@@ -21,8 +21,7 @@ function Homepage() {
         <div className="purpose">
           <p>Welcome to our website, dedicated to cultivating digital inclusion within the Hispanic communities of Tri-Cities, 
             Washington.
-            Explore our site to learn how your organization can make a meaningful impact and empower underrepresented groups through
-            digital education and access.</p>
+            Explore guides, an interactive map, budgeting tips, and workshops to empower your organization and support underrepresented groups in accessing digital education and resources.</p>
         </div>
         <div className="step">
         <div className="step-image">
@@ -53,7 +52,8 @@ function Homepage() {
         </div>
         <div className="step-content">
           <h3>Program Budgeting</h3>
-          <p>To get an estimate of how much it may cost to implement a program in your community, you can navigate to the budgeting page and find some tips. </p>
+          <p>To access helpful budgeting tips for planning your program, simply navigate to the budgeting page. 
+            There, you'll find valuable insights to assist you in effectively managing your community initiatives.</p>
           <a href="step3.html" className="learn-more">Learn More</a>
         </div>
       </div>
