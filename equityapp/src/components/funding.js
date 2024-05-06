@@ -14,10 +14,10 @@ function funding() {
 
             <div class="about-us">
                 <p>
-                  Our funding section provides resources to help you access grants for your initiatives. We prioritize community and smaller grants, aiming to support less-supported organizers.             
-                  We also suggest partnering with organizations like Goodwill offices for free program implementation.
-
-                  Explore our funding section for these resources and use our funding calculator to estimate your financial needs for your program.
+                The budgeting page serves as a comprehensive resource hub designed to assist in the financial planning and allocation of 
+                resources for community initiatives. Whether you're looking to optimize your budget allocation or seeking strategies to 
+                stretch your resources further, this page offers valuable insights and practical tips to help you maximize the impact of 
+                your programs within underserved communities.
                 </p>
             </div>
             <div class="centered">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import WelcomePageBanner from '../img/WelcomePageBanner.jpg';
 import HomepageStep1 from "../img/HomepageStep1.jpg";
 import HomepageStep2 from "../img/HomepageStep2.jpg";
@@ -28,11 +29,10 @@ function Homepage() {
           <img src={HomepageStep1} alt="Step 1" />
         </div>
         <div className="step-content">
-          <h3>Identifying Program Goals</h3>
-          <p>Connect with your community to find which resources may be most beneficial to them. Are they focused on improving their 
-            computer skills? Do they lack access to internet? All of these can serve as a guide to 
-            establishing what the focus of the program will be and how it will meet your community’s needs. </p>
-          <a href="step1.html" className="learn-more">Learn More</a>
+          <h3>Enhance Your Community Initiatives</h3>
+          <p>Discover valuable insights on our Insights page to inform and enrich your community program initiatives. 
+            Delve into demographic data and other relevant information to make informed decisions and maximize impact.</p>
+            <NavLink to="/insights" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
         </div>
       </div>
       <div className="step">
@@ -40,7 +40,7 @@ function Homepage() {
           <h3>Finding Resources </h3>
           <p>To find resources such as the nearest non-profit organizations near you, libraries, and skill centers, 
             you can go to the Interactive Map tab and filter for which infrastructures you would like to find. </p>
-          <a href="step2.html" className="learn-more">Learn More</a>
+            <NavLink to="/interactivemap" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
         </div>
         <div className="step-image">
           <img src={HomepageStep2} alt="Step 2" />
@@ -54,7 +54,7 @@ function Homepage() {
           <h3>Program Budgeting</h3>
           <p>To access helpful budgeting tips for planning your program, simply navigate to the budgeting page. 
             There, you'll find valuable insights to assist you in effectively managing your community initiatives.</p>
-          <a href="step3.html" className="learn-more">Learn More</a>
+            <NavLink to="/funding" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
         </div>
       </div>
       <div className="step">
@@ -62,7 +62,7 @@ function Homepage() {
           <h3>Implementing Programs</h3>
           <p>Explore workshops and relevant articles on our website. Access insights, connect with organizations, and 
             learn effective community service strategies through our platform.</p>
-          <a href="step4.html" className="learn-more">Learn More</a>
+            <NavLink to="/practitioner" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
         </div>
         <div className="step-image">
           <img src={HomepageStep4} alt="Step 4" />
