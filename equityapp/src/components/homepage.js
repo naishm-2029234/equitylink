@@ -29,7 +29,7 @@ function Homepage() {
           <img src={HomepageStep1} alt="Step 1" />
         </div>
         <div className="step-content">
-          <h3>Enhance Your Community Initiatives</h3>
+          <h3>Improve Your Community Initiatives</h3>
           <p>Discover valuable insights on our Insights page to inform and enrich your community program initiatives. 
             Delve into demographic data and other relevant information to make informed decisions and maximize impact.</p>
             <NavLink to="/insights" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
@@ -37,7 +37,7 @@ function Homepage() {
       </div>
       <div className="step">
         <div className="step-content">
-          <h3>Finding Resources </h3>
+          <h3>Empower Your Search: Interactive Map </h3>
           <p>To find resources such as the nearest non-profit organizations near you, libraries, and skill centers, 
             you can go to the Interactive Map tab and filter for which infrastructures you would like to find. </p>
             <NavLink to="/interactivemap" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
@@ -51,7 +51,7 @@ function Homepage() {
           <img src={HomepageStep3} alt="Step 3" />
         </div>
         <div className="step-content">
-          <h3>Program Budgeting</h3>
+          <h3>Optimize Planning: Explore Budgeting Tips</h3>
           <p>To access helpful budgeting tips for planning your program, simply navigate to the budgeting page. 
             There, you'll find valuable insights to assist you in effectively managing your community initiatives.</p>
             <NavLink to="/funding" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
@@ -59,7 +59,7 @@ function Homepage() {
       </div>
       <div className="step">
         <div className="step-content">
-          <h3>Implementing Programs</h3>
+          <h3>Engage and Learn: Workshop Discovery</h3>
           <p>Explore workshops and relevant articles on our website. Access insights, connect with organizations, and 
             learn effective community service strategies through our platform.</p>
             <NavLink to="/practitioner" activeClassName="active"> <div className="learn-more"> Learn More </div></NavLink>
