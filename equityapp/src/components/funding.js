@@ -14,10 +14,10 @@ function funding() {
 
             <div class="about-us">
                 <p>
-                The budgeting page serves as a comprehensive resource hub designed to assist in the financial planning and allocation of 
+                The budgeting page serves as a resource hub to assist in the financial planning and allocation of 
                 resources for community initiatives. Whether you're looking to optimize your budget allocation or seeking strategies to 
-                stretch your resources further, this page offers valuable insights and practical tips to help you maximize the impact of 
-                your programs within underserved communities.
+                stretch your resources further, this page offers insights and practical tips to help you maximize the impact of 
+                your programs.
                 </p>
             </div>
             <div class="centered">

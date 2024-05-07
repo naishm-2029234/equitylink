@@ -36,7 +36,7 @@ function AboutUs() {
           </div>
         </div>
         <div className="purpose">
-          <p>We aim to provide background knowledge and steps for Hispanic communities in the tri-cities area to implement digital literacy programs.</p>
+          <p>Welcome to our website, dedicated to cultivating digital inclusion within the Hispanic communities of Tri-Cities, Washington. Explore guides, an interactive map, budgeting tips, and workshops to empower your organization and support underrepresented groups in accessing digital education and resources.</p>
         </div>
         <div className="about-us">
           <h2>About Us</h2>
