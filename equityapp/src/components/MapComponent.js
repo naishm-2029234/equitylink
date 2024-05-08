@@ -18,7 +18,6 @@ const Map = () => {
   const [showLibraries, setShowLibraries] = useState(true); // State to toggle libraries visibility
   const [showCommunityServicesOffices, setShowCommunityServicesOffices] = useState(true);
   const [showVocationalAndSocialServices, setShowVocationalAndSocialServices] = useState(true);
-  const [showDisabilityServices, setShowDisabilityServices] = useState(true);
   const [showEducationalInstitutions, setShowEducationalInstitutions] = useState(true);
   const [filteredMarkers, setFilteredMarkers] = useState([]); // State to hold filtered markers
 
@@ -236,7 +235,7 @@ const Map = () => {
       mapRef.current.remove();
     }
     // Initialize map
-    mapRef.current = L.map('map').setView([46.2148, -119.1367], 10); // Centered on Tri-Cities, Washington
+    mapRef.current = L.map('map').setView([46.2148, -119.1367], 9); // Centered on Tri-Cities, Washington
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors'
@@ -253,7 +252,7 @@ const Map = () => {
     // Parse CSV data and set markers state
     parseCSVData();
   }, [showLibraries, showCommunityServicesOffices,
-    showVocationalAndSocialServices, showDisabilityServices,
+    showVocationalAndSocialServices,
     showEducationalInstitutions]);
   const handleCheckboxChange = (category, setShowCategory) => {
     setShowCategory(prevState => !prevState);
@@ -303,8 +302,6 @@ const Map = () => {
                 return showCommunityServicesOffices;
               case 'Vocational and Social Services':
                 return showVocationalAndSocialServices;
-              case 'Disability Services':
-                return showDisabilityServices;
               case 'Educational Institutions':
                 return showEducationalInstitutions;
               default:
@@ -319,7 +316,6 @@ const Map = () => {
             'Community Services Offices': L.icon({ iconUrl: officeicon, iconSize: [32, 32] }),
             'Libraries': L.icon({ iconUrl: libraryicon, iconSize: [32, 32] }),
             'Vocational and Social Services': L.icon({ iconUrl: vocationalicon, iconSize: [32, 32] }),
-            'Disability Services': L.icon({ iconUrl: disabilityofficeicon, iconSize: [32, 32] }),
             'Educational Institutions': L.icon({ iconUrl: schoolicon, iconSize: [32, 32] }),
           };
   
@@ -363,22 +359,22 @@ const Map = () => {
           <div className="checkbox-container">
             <label>
               <input type="checkbox" checked={showLibraries} onChange={() => handleCheckboxChange('Libraries', setShowLibraries)} />
+              <img className= 'filteroption-image' src={libraryicon} alt="Library" />
               Libraries
             </label>
             <label>
               <input type="checkbox" checked={showCommunityServicesOffices} onChange={() => handleCheckboxChange('Community Services Offices', setShowCommunityServicesOffices)} />
-              Community Services Offices
+              <img className= 'filteroption-image' src={officeicon} />
+              Public Community Social Services
             </label>
             <label>
               <input type="checkbox" checked={showVocationalAndSocialServices} onChange={() => handleCheckboxChange('Vocational and Social Services', setShowVocationalAndSocialServices)} />
-              Vocational and Social Services
-            </label>
-            <label>
-              <input type="checkbox" checked={showDisabilityServices} onChange={() => handleCheckboxChange('Disability Services', setShowDisabilityServices)} />
-              Disability Services
+              <img className= 'filteroption-image' src={vocationalicon} />
+              Vocational Services
             </label>
             <label>
               <input type="checkbox" checked={showEducationalInstitutions} onChange={() => handleCheckboxChange('Educational Institutions', setShowEducationalInstitutions)} />
+              <img className= 'filteroption-image' src={schoolicon} />
               Educational Institutions
             </label>
         </div>
