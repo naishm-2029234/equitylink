@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import banner from "../img/BudgetingBanner.jpg";
+import b1 from "../img/b1.jpg";
+import b2 from "../img/b2.jpg";
+import b3 from "../img/b3.jpg";
 
 function funding() {
     return (
@@ -13,12 +16,28 @@ function funding() {
             </div>
 
             <div class="about-us">
-                <p>
-                The budgeting page serves as a resource hub to assist in the financial planning and allocation of 
-                resources for community initiatives. Whether you're looking to optimize your budget allocation or seeking strategies to 
-                stretch your resources further, this page offers insights and practical tips to help you maximize the impact of 
-                your programs.
-                </p>
+                <h2>About Us</h2>
+                <h3>Funding Resources for Your Initiatives</h3>
+            <p>
+                Our funding section provides resources to help you access grants for your initiatives. We prioritize community and smaller grants, aiming to support less-supported organizers.
+            </p>
+            <img src={b1}/>
+            <h3>Partnerships for Program Implementation</h3>
+            <p>
+                We also suggest partnering with organizations like Goodwill offices for free program implementation.
+            </p>
+            <img src={b2}/>
+            <h3>Explore Our Funding Section</h3>
+            <p>
+                Explore our funding section for these resources and use our funding calculator to estimate your financial needs for your program.
+            </p>
+            <img src={b3} />
+            </div>
+
+            <div class="container">
+                <div class="box">
+                    <h1 class="bold">Budgeting Calculator</h1>
+                </div>
             </div>
             <div class="centered">
                 <h2>Best Use For Funding</h2>
