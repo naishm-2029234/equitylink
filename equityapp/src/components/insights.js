@@ -18,18 +18,20 @@ function Insights() {
       </div>
 
       <div className="about-us">
-        <h2>Demographic Insights</h2>
+        <h2>Demographic Insights</h2> 
+        <h3>Race</h3>
         <iframe id="cr-embed-05000US53005-demographics-race" className="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=05000US53005&chartDataID=demographics-race&dataYear=2022&releaseID=ACS_2022_1-year&chartType=column&chartHeight=200&chartQualifier=Hispanic+includes+respondents+of+any+race.+Other+categories+are+non-Hispanic.&chartTitle=&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style={{ margin: '1em', maxWidth: '720px' }}></iframe>
         <iframe id="cr-embed-05000US53021-demographics-race" className="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=05000US53021&chartDataID=demographics-race&dataYear=2022&releaseID=ACS_2022_1-year&chartType=column&chartHeight=200&chartQualifier=Hispanic+includes+respondents+of+any+race.+Other+categories+are+non-Hispanic.&chartTitle=&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style={{ margin: '1em', maxWidth: '720px' }}></iframe>
         <iframe src="https://data.census.gov/vizwidget?g=050XX00US53005&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0' }}></iframe>
         <iframe src="https://data.census.gov/vizwidget?g=050XX00US53021&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0' }}></iframe>
-        <div className="chart-container"></div>
-        <img src={chart} alt="chart"/>
       </div>
+      <div className="chart-container"></div>
+      <img src={chart} alt="chart"/>
     </div>
   );
 }
 
 export default Insights;
+
 
 
