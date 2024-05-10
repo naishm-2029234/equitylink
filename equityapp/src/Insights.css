@@ -1,7 +1,8 @@
-chart-container{
+.chart-container{
     height: 300px; /* Set the same height as the embedded data tables */
     margin: 1em; /* Optional: Add margin for spacing */
-    max-width: 720px; /* Optional: Limit the maximum width */
+    max-width: 100px; /* Optional: Limit the maximum width */
   }
+  
 
   
