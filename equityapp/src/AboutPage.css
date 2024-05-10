@@ -177,6 +177,7 @@ nav {
     font-family: 'Lato', sans-serif;
     text-align: center;
     margin-top: 20px;
+    padding: 30px 30px; 
 }
 
 .purpose p {
@@ -203,12 +204,12 @@ nav {
   font-size: 20px;
   padding: 20px 200px 80px; 
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 
 .about-us h2 {
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -395,4 +396,14 @@ nav {
 
 .bold {
     font-weight: bold;
+}
+
+/* Footer Banner Styling */
+.footer-banner {
+  font-family: 'Lato', sans-serif;
+  background-color: #EDE5DE; 
+  padding: 20px;
+  text-align: center;
+  color: #333; 
+  font-size: 18px;
 }
