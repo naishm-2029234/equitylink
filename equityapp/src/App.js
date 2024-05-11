@@ -24,9 +24,11 @@ const App = () => {
             <div>
                 <Navigation />
                 <Routes>
+                    
                     {/* <Route path="/findresources" element={<FindingResources />} /> */}
                     <Route path="/" element={<Homepage />} />
                     <Route path="/funding" element={<Budgeting />} />
+                    
                     <Route path="/Assess" element={<Assess />} />
                     <Route path="/Invest" element={<Invest />} />
                     <Route path="/Offer" element={<Offer />} />
