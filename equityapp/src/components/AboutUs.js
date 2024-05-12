@@ -9,21 +9,9 @@ import partnerLogo from '../img/partnerlogo.jpg';
 function AboutUs() {
   let currentLanguage = 'en';
 
-  // function googleTranslateElementInit() {
-  //   new google.translate.TranslateElement(
-  //     { pageLanguage: 'en' },
-  //     'google_translate_element'
-  //   );
-  // }
-
   return (
     
     <div className="App">
-      {/* <header>
-        <div id="google_translate_element"></div> 
-        
-      </header> */}
-
       <div className="banner">
         <img src={banner} alt="Banner Image" />
         <div className="banner-text">
