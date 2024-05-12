@@ -46,10 +46,7 @@ const Navigation = () => {
               </ul>
           </div>
           <div className="right-section">
-              <div className="language">
-
-                  <i className="fas fa-globe"></i>
-              </div>
+              <div id="google_translate_element"></div>
           </div>
       </nav>
   );

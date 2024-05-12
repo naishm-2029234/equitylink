@@ -19,10 +19,10 @@ function AboutUs() {
   return (
     
     <div className="App">
-      <header>
+      {/* <header>
         <div id="google_translate_element"></div> 
         
-      </header>
+      </header> */}
 
       <div className="banner">
         <img src={banner} alt="Banner Image" />
