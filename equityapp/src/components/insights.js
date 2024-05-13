@@ -27,6 +27,7 @@ function Insights() {
         </ul>
         <ul>
           <h3>Languages</h3>
+          <li> Knowledge of the primary language helps in designing digital resources and tools that are accessible and inclusive. This may involve translating instructional materials, user interfaces, and documentation into the community's language to ensure that everyone can navigate and benefit from digital platforms and services. </li>
           <iframe src="https://data.census.gov/vizwidget?g=050XX00US53005&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0', margin: '0' }}></iframe>
           <iframe src="https://data.census.gov/vizwidget?g=050XX00US53021&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0', margin: '0' }}></iframe>
         </ul>
