@@ -26,18 +26,25 @@ function Insights() {
           <iframe id="cr-embed-05000US53021-demographics-race" className="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=05000US53021&chartDataID=demographics-race&dataYear=2022&releaseID=ACS_2022_1-year&chartType=column&chartHeight=200&chartQualifier=Hispanic+includes+respondents+of+any+race.+Other+categories+are+non-Hispanic.&chartTitle=&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style={{ margin: '1em', maxWidth: '720px' }}></iframe>
         </ul>
         <ul>
+        <h3>Education</h3>
+        <li>Understanding the education level of community members helps tailor digital literacy training programs to meet the needs and skill levels of participants. Curriculum and learning materials can be designed that are appropriate for individuals with varying levels of education, ensuring that everyone has
+           access to relevant and comprehensible training.</li>
+        <iframe id="cr-embed-05000US53005-social-educational_attainment_distribution" className="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=05000US53005&chartDataID=social-educational_attainment_distribution&dataYear=2022&releaseID=ACS_2022_1-year&chartType=histogram&chartHeight=200&chartQualifier=Universe%3A+Population+25+years+and+over&chartTitle=Population+by+highest+level+of+education&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style={{ margin: '1em', maxWidth: '720px' }}></iframe>
+        <iframe id="cr-embed-05000US53021-social-educational_attainment_distribution" className="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=05000US53021&chartDataID=social-educational_attainment_distribution&dataYear=2022&releaseID=ACS_2022_1-year&chartType=histogram&chartHeight=200&chartQualifier=Universe%3A+Population+25+years+and+over&chartTitle=Population+by+highest+level+of+education&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style={{ margin: '1em', maxWidth: '720px' }}></iframe>
+        </ul>
+        <ul>
           <h3>Languages</h3>
           <li> Knowledge of the primary language helps in designing digital resources and tools that are accessible and inclusive. This may involve translating instructional materials, user interfaces, and documentation into the community's language to ensure that everyone can navigate and benefit from digital platforms and services. </li>
           <iframe src="https://data.census.gov/vizwidget?g=050XX00US53005&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0', margin: '0' }}></iframe>
           <iframe src="https://data.census.gov/vizwidget?g=050XX00US53021&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0', margin: '0' }}></iframe>
         </ul>
-        <ul>
-        <h3>Education</h3>
-        <iframe id="cr-embed-05000US53005-social-educational_attainment_distribution" className="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=05000US53005&chartDataID=social-educational_attainment_distribution&dataYear=2022&releaseID=ACS_2022_1-year&chartType=histogram&chartHeight=200&chartQualifier=Universe%3A+Population+25+years+and+over&chartTitle=Population+by+highest+level+of+education&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style={{ margin: '1em', maxWidth: '720px' }}></iframe>
-        <iframe id="cr-embed-05000US53021-social-educational_attainment_distribution" className="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=05000US53021&chartDataID=social-educational_attainment_distribution&dataYear=2022&releaseID=ACS_2022_1-year&chartType=histogram&chartHeight=200&chartQualifier=Universe%3A+Population+25+years+and+over&chartTitle=Population+by+highest+level+of+education&initialSort=&statType=scaled-percentage" frameborder="0" width="100%" height="300" style={{ margin: '1em', maxWidth: '720px' }}></iframe>
-        </ul>
         <ul> 
         <h3>Broadband</h3>
+        <li> Broadband availability data informs the targeting of digital inclusion initiatives. Allwoing for the focus on communities with limited broadband access, providing resources and support to increase connectivity
+        </li>
+        <li>
+        *Percent of people per county with access to fixed terrestrial broadband at speeds of 25 Mbps/3 Mbps as of the end of 2019
+        </li>
         <img src={chart} alt="chart"/>
         </ul>
         </div>
