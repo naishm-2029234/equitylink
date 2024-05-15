@@ -107,7 +107,6 @@
   height: 100%; /* Ensure the card fills the entire height of its container */
   overflow-y: auto;
   box-sizing: border-box; /* Include padding and border in the card's total width and height */
-  align-items: center;
 }
 
 .mapcard p {
@@ -120,5 +119,4 @@
 
 .mapcard h3{
   font-size: 12px;
-  align-self: center;
 }
