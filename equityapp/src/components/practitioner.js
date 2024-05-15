@@ -19,26 +19,26 @@ const PractitionerToolkit = () => {
       imageSrc: cardImage1,
       type: 'Workshop',
       date: 'July 24, 2024',
-      title: 'WORKSHOP SERIES FOR DIGITAL SUCCESS',
-      description: 'Join us for a series of free hybrid and virtual events to prepare for your digital success.',
+      title: 'FREE TECH RESOURCES FOR ALL LEVELS',
+      description: 'Explore this website for tools and resources to build your confidence and skills in technology.',
       link: 'https://www.digitallearn.org/'
   },
   {
       imageSrc: cardImage2,
-      type: 'Recording',
+      type: 'Video',
       date: 'May 10, 2024',
-      title: 'DISTANCE EDUCATION ONLINE TRAINING',
-      description: 'Embark on your journey to knowledge and skill enhancement through distance education online training videos.',
+      title: 'LEARN BASIC COMPUTER SKILLS',
+      description: 'Embark on your journey to knowledge and skill enhancement through online training videos.',
       link: 'https://www.youtube.com/watch?v=y2kg3MOk1sY'
   },
   // Continue for the other cards
   {
       imageSrc: cardImage3,
-      type: 'Article',
+      type: 'Website',
       date: 'April 10, 2024',
       title: 'VOLUNTEERING IN A LITERACY PROGRAM',
       description: 'Explore opportunities to make a difference through volunteering in literacy programs and empower individuals.',
-      link: 'https://meritamerica.org/career-tracks/it-support/?utm_source=google&utm_medium=cpc&utm_campaign=Search_NB_IT_Gamma_National&utm_term=it%20training&gclid=CjwKCAjwi_exBhA8EiwA_kU1Mgk_5YMR4agetDoKxpiXpFo5PHDyQDuwOO1SPJtA6Yeh1zGI52x9GhoC17wQAvD_BwE&gad_source=1'
+      link: 'https://www.networkforgood.org/topics/education/digitaldivide/'
   },
   {
       imageSrc: cardImage4,
