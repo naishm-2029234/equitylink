@@ -8,13 +8,13 @@ import b3 from "../img/3.jpg";
 function funding() {
     return (
         <div>
-            <div class="banner">
+            <div className="banner">
                 <img src={banner} alt="Banner Image" />
-                <div class="banner-text">
+                <div className="banner-text">
                     <h1>BUDGETING</h1>
                 </div>
             </div>
-            <div class="about-us1">
+            <div className="about-us1">
 
                 <h3>Funding Resources for Your Initiatives</h3>
             <p>
@@ -38,27 +38,27 @@ function funding() {
             </div>
            <br/>
             <br/>
-            <div class="centered">
+            <div className="centered">
                 <h2>Best Use For Funding</h2>
             </div>
-            <div class="centered">
-                <ul class="list">
-                    <li class="list-item">Assess Community Needs
+            <div className="centered">
+                <ul className="list">
+                    <li className="list-item">Assess Community Needs
                          <NavLink to="/Assess" activeClassName="active"><div class="alignright">+</div></NavLink>
                     </li>
-                    <li class="list-item">Invest in Training Programs
+                    <li className="list-item">Invest in Training Programs
                         <NavLink to="/Invest" activeClassName="active"><div class="alignright">+</div></NavLink>
                     </li>
-                    <li class="list-item">Provide Access to Technology
+                    <li className="list-item">Provide Access to Technology
                         <NavLink to="/Provide" activeClassName="active"><div class="alignright">+</div></NavLink>
                     </li>
-                    <li class="list-item">Offer Language-Specific Resources
+                    <li className="list-item">Offer Language-Specific Resources
                         <NavLink to="/Offer" activeClassName="active"><div class="alignright">+</div></NavLink>
                     </li>
-                    <li class="list-item">Support Community Engagement
+                    <li className="list-item">Support Community Engagement
                         <NavLink to="/Support" activeClassName="active"><div class="alignright">+</div></NavLink>
                     </li>
-                    <li class="list-item">Collaborate with Local Organizations
+                    <li className="list-item">Collaborate with Local Organizations
                         <NavLink to="/Collaborate" activeClassName="active"><div class="alignright">+</div></NavLink>
                     </li>
                 </ul>

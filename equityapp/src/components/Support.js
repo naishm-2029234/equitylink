@@ -12,12 +12,19 @@ function Support() {
                 </div>
             </div>
 
-            <div class="about-us">
+            <div className="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/H0xLucio3Z4"
+                        title="How to Fill Out the Budget Template – Building a Budget from Scratch" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+
+            <div className="about-us1">
                 <p>
-                  When it comes to any activity that is meant to be finished, the participation of members of the community is considered to be of the greatest significance. Offering opportunities for people in the community to take part in events is something that should be done to encourage
-                  participation. Some of the options that could be thought about are holding events, setting up advice boards, and creating volunteer programs. Building strong ties with people in the community not only helps people feel like they own what they're doing, but it also makes sure that
-                   the programs you offer are meeting the needs of the community. When people are assisted in becoming more involved in their communities, it is possible that this might result in an increase in the amount of financial resources available. Not only would this show that you are serious
-                    about success over the long term, but it would also show that you are concerned about involvement at the local level.
+                    - The video called "Budgeting for Community Engagement" shows you how to set aside money for
+                    community engagement projects in the best way possible.<br/>
+                    - Community leaders can improve their efforts to get people involved by learning how to make a budget that fits the needs of the group and makes the most of the resources.<br/>
+                    - The video's advice helps set goals for tasks, figure out what needs your attention, and make sure you have long-term success by keeping up your efforts over time. Really good budgeting is very important for adapting to changing community needs and making community relationships stronger.
                 </p>
             </div>
         </div>

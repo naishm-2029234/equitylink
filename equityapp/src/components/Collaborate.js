@@ -5,18 +5,28 @@ import banner from "../img/Collaborate.jpg";
 function Collaborate() {
     return (
         <div>
-            <div class="banner">
-                <img src={banner} alt="Banner Image" />
-                <div class="banner-text">
+            <div className="banner">
+                <img src={banner} alt="Banner Image"/>
+                <div className="banner-text">
                     <h1>Collaborate with Local Organizations</h1>
                 </div>
             </div>
 
-            <div class="about-us">
+            <div className="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/Auv2cNbrVcs"
+                        title="Budgeting &amp; Forecasting For Nonprofits - A Plan for Financial Success | Donorbox Webinar 📢📢"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+
+            <div className="about-us1">
                 <p>
-                  It is possible to expand the influence you have and get access to a bigger number of facilities in order to establish connections with businesses and groups in the surrounding area. In order to share information, skills, and tools, work together with businesses, charity organizations,
-                   and educational institutions. One thing that could happen if this joint method is put into action is the growth of a larger network, the chance of matching funding choices, as well as the sharing of resources. By cooperating with one another, it is possible to build a more solid support
-                    system for the activities, which will eventually end up in those projects enduring for a longer length of time. Participating in your community and building strong relationships is important to you, and this plan may help you show potential funding sources that you are serious about doing those things.
+                    - Working with local groups to promote community events is clearly linked to the video on budgeting
+                    for nonprofits. It does this by giving information on how to best use resources, recognise financial
+                    risks, and make budgeting faster using technology.<br/>
+                    - Together with businesses, nonprofits, and schools, community leaders can make community projects more effective, build networks, find more funding options, and share resources.<br/>
+                    - Through this, a better support system for long-term community involvement will eventually grow. You can do this by learning how to make a budget that works for nonprofits.
                 </p>
             </div>
         </div>

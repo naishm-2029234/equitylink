@@ -12,9 +12,20 @@ function Provide() {
                 </div>
             </div>
 
-            <div class="about-us">
+            <div className="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/TUKN7rdVwxw"
+                        title="Technology Budgeting Fundamentals" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+
+            <div className="about-us1">
                 <p>
-                In today's world, community groups rely heavily on technology, making the ability to utilize these tools invaluable. Providing your staff and community members with tools such as computers, tablets, and software ensures their full participation in events and activities. Technological advancements have simplified access to information and facilitated interactions, enhancing efficiency. It's crucial to allocate funds in your budget for acquiring, maintaining, and upgrading technology to support these advancements. This investment not only improves program efficiency but also helps achieve program goals more effectively. By prioritizing technology, you can stay ahead of the competition and make a substantial impact in your community.
+                    - This YouTube video called "Technology Budgeting Fundamentals" is very helpful for understanding
+                    how to carefully plan and deploy company resources for technology. By providing advice on budgeting
+                    for necessary technological tools and resources like computers, apps, and software, it links to the issue of giving access to technology in community programs.<br/>
+                    - When the video talks about things like buying, keeping, and improving technology, it makes sense that budgeting for these things is important to make sure that programs run smoothly and goals are met.<br/>
+                    - It is a good way to learn how to budget for technology in community projects. This will help the projects succeed and give more people access to technology.
                 </p>
             </div>
         </div>

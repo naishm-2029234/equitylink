@@ -6,18 +6,26 @@ function Offer() {
     return (
         <div>
             <div class="banner">
-                <img src={banner} alt="Banner Image" />
+                <img src={banner} alt="Banner Image"/>
                 <div class="banner-text">
                     <h1>Offer Language-Specific Resources</h1>
                 </div>
             </div>
 
-            <div class="about-us">
+            <div className="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/BMHr6l5SsFs"
+                        title="Mastering Education Policy: Budgeting and Resource Allocation" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+
+            <div className="about-us1">
                 <p>
-                  In the case that you are unable to communicate adequately, it may be difficult for you to participate in community activities and to access instruments. Providing tools that are tailored to the language that your audience speaks and have been modified to meet their
-                   language requirements is one approach that can be used to circumvent this issue. In order to reach this goal, it might be necessary to have speakers at events, have materials translated, or hire staff members who can speak more than one language. When you do this,
-                    you will make the environment more welcoming for individuals from all walks of life, ensuring that everyone has the opportunity to benefit from the activities that you are participating in. Using a method that includes everyone could help get more money from handouts
-                     that are meant to help a wide range of groups of people.
+                    - Budgeting and resource allocation are discussed in "Mastering Education Policy: Budgeting and
+                    Resource Allocation." Talking about education policy is the major topic, but the ideas talked about
+                    can be useful in many other areas, like community projects.<br/>
+                    - For example, understanding basic words, how important budgeting is, and how to best use resources are just a few examples. It highlights language-specific resources and the necessity to strategically allocate resources to satisfy a community's varied requirements.<br/>
+                    - To promote equality and accessibility, community organizations may invest money on language-specific tools and resources, such as translated materials or multilingual personnel, similar to how schools deliver a high-quality education on a budget. The video gives resource sharing and budgeting tips for language-specific community program initiatives.
                 </p>
             </div>
         </div>

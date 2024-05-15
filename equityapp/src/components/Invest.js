@@ -12,9 +12,24 @@ function Invest() {
                 </div>
             </div>
 
-            <div class="about-us">
+            <div className="video-container">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/xRS70tXi1_c"
+                        title="Traditional Training Methods" frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+
+            <div className="about-us1">
                 <p>
-                Providing financial resources to training programs is crucial to ensure a competent and productive workforce. It's essential to ensure that your team receives adequate training to deliver exceptional services. This investment in training has a positive ripple effect on the entire community, improving outcomes. Offering ongoing training covering various topics, including professional skills and "soft skills" like leadership and communication, is important. Donors recognize and appreciate investments in organizational growth, which demonstrate a commitment to long-term success. By investing in areas such as hiring, technology, and community engagement, your organization shows a commitment beyond meeting immediate needs, laying a strong foundation for the future. This strategic approach signals to donors that your group has a clear vision, increasing the likelihood of receiving financial support for your cause.
+                    - The video tells about important financial measures, such as how much you spent on training as a
+                    whole. If the training is held away from the office or needs travel, the guests' rent, food,
+                    transportation, and other costs should be paid for.<br/>
+                    - Employers and communities and authorities should think about how much training costs, where their
+                    money comes from, and how much they can make. Outsiders may have to pay to go through the
+                    training.<br/>
+                    - It is important to check to see how much more work has been done since the training program began.
+                    People look at things like sales, output, accident rates, and machine wear and tear to figure out
+                    how much a program has earned them.
                 </p>
             </div>
         </div>
