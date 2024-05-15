@@ -105,7 +105,7 @@
   border-radius: 5px;
   margin: 10px;
   height: 100%; /* Ensure the card fills the entire height of its container */
-  overflow-y: auto;
+  /* overflow-y: auto; */
   box-sizing: border-box; /* Include padding and border in the card's total width and height */
 }
 
@@ -119,4 +119,10 @@
 
 .mapcard h3{
   font-size: 12px;
+  align-self: center;
+}
+
+.filteroption-image{
+  padding-right: 4px;
+  max-width: 30px;
 }

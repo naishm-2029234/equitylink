@@ -17,19 +17,19 @@ const PractitionerToolkit = () => {
   const cardsData = [
     {
       imageSrc: cardImage1,
-      type: 'Recording',
+      type: 'Workshop',
       date: 'July 24, 2024',
       title: 'WORKSHOP SERIES FOR DIGITAL SUCCESS',
       description: 'Join us for a series of free hybrid and virtual events to prepare for your digital success.',
-      link: '/program'
+      link: 'https://www.digitallearn.org/'
   },
   {
       imageSrc: cardImage2,
       type: 'Recording',
       date: 'May 10, 2024',
       title: 'DISTANCE EDUCATION ONLINE TRAINING',
-      description: 'Join us for a series of free hybrid and virtual events to prepare for your digital success.',
-      link: '/workshop'
+      description: 'Embark on your journey to knowledge and skill enhancement through distance education online training videos.',
+      link: 'https://www.youtube.com/watch?v=y2kg3MOk1sY'
   },
   // Continue for the other cards
   {
@@ -37,32 +37,32 @@ const PractitionerToolkit = () => {
       type: 'Article',
       date: 'April 10, 2024',
       title: 'VOLUNTEERING IN A LITERACY PROGRAM',
-      description: 'Join us for a series of free hybrid and virtual events to prepare for your digital success.',
-      link: '/workshop'
+      description: 'Explore opportunities to make a difference through volunteering in literacy programs and empower individuals.',
+      link: 'https://meritamerica.org/career-tracks/it-support/?utm_source=google&utm_medium=cpc&utm_campaign=Search_NB_IT_Gamma_National&utm_term=it%20training&gclid=CjwKCAjwi_exBhA8EiwA_kU1Mgk_5YMR4agetDoKxpiXpFo5PHDyQDuwOO1SPJtA6Yeh1zGI52x9GhoC17wQAvD_BwE&gad_source=1'
   },
   {
       imageSrc: cardImage4,
-      type: 'Article',
+      type: 'Workshop',
       date: 'March 10, 2024',
-      title: 'BEST PRACTICES TIPS AND TRICKS',
-      description: 'Join us for a series of free hybrid and virtual events to prepare for your digital success.',
-      link: '/workshop'
+      title: 'FREE COMPUTER INTERACTIVE COURSES',
+      description: 'Join free interactive computer courses designed to enhance your digital skills and expand your opportunities.',
+      link: 'https://edu.gcfglobal.org/en/topics/computers/'
   },
   {
       imageSrc: cardImage5,
-      type: 'Recording',
+      type: 'Article',
       date: 'Feb 28, 2024',
-      title: 'DISTANCE EDUCATION ONLINE TRAINING',
-      description: 'Join us for a series of free hybrid and virtual events to prepare for your digital success.',
-      link: '/workshop'
+      title: 'BEST PRACTICES TIPS AND TRICKS',
+      description: 'Learn some tips and tricks for digital empowerment and community development.',
+      link: 'https://medium.com/fidutam/how-fidutam-is-increasing-digital-literacy-among-the-underserved-communities-ad11165da21a'
   },
   {
       imageSrc: cardImage6,
-      type: 'Workshop',
+      type: 'Article',
       date: 'Feb 10, 2024',
-      title: 'VOLUNTEERING IN A LITERACY PROGRAM',
-      description: 'Join us for a series of free hybrid and virtual events to prepare for your digital success.',
-      link: '/workshop'
+      title: 'STRATEGIES TO SUPPORT DIGITAL LITERACY',
+      description: 'Discover effective strategies to strengthen digital literacy and prepare for success in today\'s tech-driven workforce.',
+      link: 'https://www.learning.com/blog/proven-strategies-support-digital-literacy/'
   },
   ];
 

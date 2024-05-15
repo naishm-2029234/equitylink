@@ -1,6 +1,7 @@
 /* Basic styling */
 
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -81,7 +82,65 @@ nav {
     display: inline;
     margin-right: 30px;
 }
+.budgeting-guidance {
+  margin-top: 20px;
+}
 
+.budgeting-guidance h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.budgeting-guidance p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.budgeting-guidance ol {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.budgeting-guidance ul {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.budgeting-guidance li {
+  margin-bottom: 5px;
+}
+
+.budgeting-guidance table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.budgeting-guidance th {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.budgeting-guidance td {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.budgeting-guidance th:first-child,
+.budgeting-guidance td:first-child {
+  text-align: left;
+}
+
+.budgeting-guidance th:last-child,
+.budgeting-guidance td:last-child {
+  text-align: right;
+}
 .banner {
     position: relative;
     text-align: center;
@@ -118,6 +177,7 @@ nav {
     font-family: 'Lato', sans-serif;
     text-align: center;
     margin-top: 20px;
+    padding: 30px 30px; 
 }
 
 .purpose p {
@@ -129,21 +189,62 @@ nav {
 
 /* About Us section styling */
 .about-us {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .about-us h2 {
+  font-family: 'Lato', sans-serif; 
+  font-size: 48px;
+  margin-bottom: 50px;
+  padding: 0 200px; 
+}
+
+.about-us p {
+  font-family: 'Lato', sans-serif; 
+  font-size: 20px;
+  padding: 20px 200px 80px; 
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+.about-us h2 {
+  text-align: left;
+}
+
+
+.about-us1 {
+    margin-top: 50px;
+}
+
+.about-us1 img {
+     display: block;
+     margin: 0 auto;
+  width: 800px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.about-us1 h2 {
     font-family: 'Lato', sans-serif; 
     font-size: 48px;
     margin-bottom: 50px;
     padding: 0 200px; 
 }
 
-.about-us p {
+.about-us1 p {
     font-family: 'Lato', sans-serif; 
     font-size: 20px;
     padding: 20px 200px 80px; 
     line-height: 1.5;
+    text-align: center;
+}
+
+.about-us1 h3 {
+    text-align: center;
+}
+
+.about-us1 h2 {
+    text-align: center;
 }
 
 /* Team images styling */
@@ -305,66 +406,4 @@ nav {
   text-align: center;
   color: #333; 
   font-size: 18px;
-}
-
-/* Budgeting Styling */
-
-.budgeting-guidance {
-  margin-top: 20px;
-}
-
-.budgeting-guidance h2 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.budgeting-guidance p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.budgeting-guidance ol {
-  font-size: 16px;
-  margin-bottom: 10px;
-  padding-left: 20px;
-}
-
-.budgeting-guidance ul {
-  font-size: 16px;
-  margin-bottom: 10px;
-  padding-left: 20px;
-}
-
-.budgeting-guidance li {
-  margin-bottom: 5px;
-}
-
-.budgeting-guidance table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 10px;
-}
-
-.budgeting-guidance th {
-  font-size: 16px;
-  font-weight: bold;
-  padding: 8px;
-  border: 1px solid #ccc;
-}
-
-.budgeting-guidance td {
-  font-size: 16px;
-  padding: 8px;
-  border: 1px solid #ccc;
-}
-
-.budgeting-guidance th:first-child,
-.budgeting-guidance td:first-child {
-  text-align: left;
-}
-
-.budgeting-guidance th:last-child,
-.budgeting-guidance td:last-child {
-  text-align: right;
 }

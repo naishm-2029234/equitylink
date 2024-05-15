@@ -46,13 +46,7 @@ const Navigation = () => {
               </ul>
           </div>
           <div className="right-section">
-              <div className="language">
-                  <select id="language-select">
-                      <option value="english">English</option>
-                      <option value="spanish">Español</option>
-                  </select>
-                  <i className="fas fa-globe"></i>
-              </div>
+              <div id="google_translate_element"></div>
           </div>
       </nav>
   );

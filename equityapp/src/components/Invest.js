@@ -14,11 +14,7 @@ function Invest() {
 
             <div class="about-us">
                 <p>
-                  It is of the highest need to give financial resources to training programs in order to guarantee that the workforce will be both competent and productive. Considering this, it is essential to make certain that your team received enough training in order for them to be able to provide exceptional services.
-                  The outcome for the community as a whole will ultimately improve as a consequence of how this plays out, and this is the reason why this will happen. It is important to think about how you could offer ongoing training lessons that cover a lot of different topics, such as professional skills
-                  as well as "soft skills" like leadership and communication. Donors will see that you care about the long-term survival and success of your organization if you invest in its growth. Your group shows that it cares about more than just meeting current needs by spending money on things
-                  like hiring more people, getting new technology, or getting involved in the community. In addition to this, it is concerned with establishing a strong foundation for the ways in which the future will unfold. This way shows donors that your group has a clear goal, which makes them more likely
-                  to give money or other forms of financial help to your cause.
+                Providing financial resources to training programs is crucial to ensure a competent and productive workforce. It's essential to ensure that your team receives adequate training to deliver exceptional services. This investment in training has a positive ripple effect on the entire community, improving outcomes. Offering ongoing training covering various topics, including professional skills and "soft skills" like leadership and communication, is important. Donors recognize and appreciate investments in organizational growth, which demonstrate a commitment to long-term success. By investing in areas such as hiring, technology, and community engagement, your organization shows a commitment beyond meeting immediate needs, laying a strong foundation for the future. This strategic approach signals to donors that your group has a clear vision, increasing the likelihood of receiving financial support for your cause.
                 </p>
             </div>
         </div>
