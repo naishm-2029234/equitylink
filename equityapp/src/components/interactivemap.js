@@ -39,13 +39,19 @@ function Interactivemap() {
         <ol>
   <li> Click on a marker to view details about a specific location.</li>
   <li> Use the zoom and pan features to explore different areas.</li>
-  <li> Filter the map by selecting specific categories using the options provided: 
-    <ul className='maptextpadding'>
-      <li><span class="location-description"><strong>Libraries:</strong> Libraries serve as hubs of knowledge and learning, offering resources such as books, internet access, and educational programs. They provide invaluable support for literacy initiatives, educational workshops, and community gatherings, fostering a culture of lifelong learning and empowerment.</span></li>
-      <li><span class="location-description"><strong>Community Services Offices:</strong> Public community social services encompass a wide range of support systems aimed at addressing social challenges and enhancing well-being. These services include healthcare facilities, counseling centers, shelters, and food banks. Collaborating with these organizations enables nonprofits to address immediate needs, provide vital assistance to vulnerable populations, and advocate for systemic change.</span></li>
-      <li><span class="location-description"><strong>Educational Institutions:</strong> Educational institutions, including schools and universities, play a pivotal role in community development. They offer spaces for skill-building workshops, mentorship programs, and collaborative projects. By partnering with educational institutions, nonprofits can access expertise, facilities, and a diverse pool of volunteers, enriching their programs and impact.</span></li>
-      <li><span class="location-description"><strong>Vocational Services:</strong> Vocational services offer training, employment opportunities, and career development support, empowering individuals to achieve economic stability and independence. Nonprofits can collaborate with vocational training centers, job placement agencies, and skill-building programs to facilitate workforce development, entrepreneurship initiatives, and economic empowerment projects within the community.</span></li>
-    </ul>
+  <li> Filter the map by selecting specific categories using the options provided: <ul className='maptextpadding'>
+     <li><span class="location-description"><strong>Libraries:</strong> Libraries serve as hubs of knowledge and learning, offering
+     resources such as books, internet access, and educational programs. They provide support for digital literacy initiatives, technology workshops, and community gatherings.</span></li>
+  <li><span class="location-description"><strong>Community Services Offices:</strong>
+   Public community social services encompass a range of support systems aimed at addressing social challenges and enhancing well-being.
+   Collaborating with these organizations enables nonprofits to address immediate needs,
+   provide assistance to vulnerable populations, and advocate for systemic change.</span></li>
+   <li><span class="location-description"><strong>Educational Institutions:</strong> Educational
+    institutions, including schools and universities, play an important role in community development. They offer spaces for technology skill-building workshops, mentorship programs, and collaborative projects. 
+    Nonprofits can access expertise, facilities, and a diverse pool of volunteers, enriching their programs and impact.</span>
+    </li><li><span class="location-description"><strong>Vocational Services:</strong> Vocational services offer technological and job training, employment opportunities,
+    and career development support. Nonprofits can collaborate with vocational training centers, job placement agencies, and skill-building programs to
+    facilitate community programs.</span></li></ul>
   </li>
 </ol>
   </ul>
