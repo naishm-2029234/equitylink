@@ -18,9 +18,8 @@ function funding() {
 
                 <h3>Funding Resources for Your Initiatives</h3>
             <p>
-                Our funding section provides resources to help you access grants for your initiatives. We prioritize community and smaller grants, aiming to support less-supported organizers.
+                Our funding section provides insights on best budgeting practices. Explore our funding section for these resources to estimate your financial needs for your program.
             </p>
-            <img src={b1}/>
             <br/>
             <br/>
             <h3>Partnerships for Program Implementation</h3>
@@ -30,9 +29,8 @@ function funding() {
             <img src={b2}/>
             <br/>
             <br/>
-            <h3>Explore Our Funding Section</h3>
             <p>
-                Explore our funding section for these resources to estimate your financial needs for your program.
+                
             </p>
             <img src={b3} />
             </div>
