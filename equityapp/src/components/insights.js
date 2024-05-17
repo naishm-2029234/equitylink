@@ -38,8 +38,8 @@ function Insights() {
         <ul>
           <h3>Languages</h3>
           <li> Knowledge of the primary language helps in designing inclusive digital resources such as instructional materials, user interfaces, and documentation into the community's language </li>
-          <iframe src="https://data.census.gov/vizwidget?g=050XX00US53005&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0', margin: '0' }}></iframe>
-          <iframe src="https://data.census.gov/vizwidget?g=050XX00US53021&infoSection=Language Spoken at Home" width="100%" height="600" style={{ border: '0', margin: '0' }}></iframe>
+          <iframe src="https://data.census.gov/vizwidget?g=050XX00US53005&infoSection=Language Spoken at Home" width="100%" height="400" style={{ border: '0', margin: '1em' }}></iframe>
+          <iframe src="https://data.census.gov/vizwidget?g=050XX00US53021&infoSection=Language Spoken at Home" width="100%" height="400" style={{ border: '0', margin: '1em' }}></iframe>
         </ul>
         <ul> 
         <h3>Broadband</h3>
@@ -48,14 +48,13 @@ function Insights() {
         <li>
         *Percent of people per county with access to fixed terrestrial broadband at speeds of 25 Mbps/3 Mbps as of the end of 2019
         </li>
-        <img src={chart} alt="chart"/>
+        <img src={chart} alt="chart" id="chart-img"/>
         </ul>
         </div>
         
         
         
       
-      <div className="chart-container"></div>
       
     </div>
   );
