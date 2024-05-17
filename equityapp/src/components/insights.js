@@ -48,7 +48,7 @@ function Insights() {
         <li>
         *Percent of people per county with access to fixed terrestrial broadband at speeds of 25 Mbps/3 Mbps as of the end of 2019
         </li>
-        <img src={chart} alt="chart" id="chart-img"/>
+        <img src={chart} alt="chart" id="chart-img" className="chart-left"/>
         </ul>
         </div>
         
