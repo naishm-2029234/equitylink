@@ -36,7 +36,7 @@ const Navigation = () => {
                       {showDropdown && (
                           <div className="dropdown-content">
                               <NavLink to="/interactivemap" activeClassName="active">Interactive Map</NavLink>
-                              <NavLink to="/insights" activeClassName="active">Insights</NavLink>
+                              <NavLink to="/insights" activeClassName="active">Data Insights</NavLink>
                           </div>
                       )}
                   </li>

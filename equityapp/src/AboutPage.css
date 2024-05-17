@@ -416,12 +416,12 @@ nav {
 
 /* Insight Page Styling */
 #chart-img {
-  max-width: 50%; /* Adjust the percentage to shrink or expand the chart */
-  display: block; /* Ensure the image behaves like a block element */
-  margin: 50px auto 0; /* Center the image horizontally */
+  max-width: 50%;
+  display: block;
+  margin: 50px auto 0;
 }
 
 .chart-left {
-  float: left; /* Align the image to the left */
-  margin-right: 20px; /* Add some margin to the right of the image */
+  float: left; 
+  margin-right: 20px;
 }

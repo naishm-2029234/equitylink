@@ -5,6 +5,12 @@ import b1 from "../img/1.jpg";
 import b2 from "../img/2.jpg";
 import b3 from "../img/3.jpg";
 
+// If you are on this page then you are on step 3 of program implementation.
+// when it comes to finding funds for your digital literacy program, we suggest
+// partnering with orginzation such as Goodwill.
+
+// the following chart displays steps for creating partnerships with organizations
+
 function funding() {
     return (
         <div>
@@ -15,24 +21,20 @@ function funding() {
                 </div>
             </div>
             <div className="about-us1">
-
+d
                 <h3>Funding Resources for Your Initiatives</h3>
             <p>
-                Our funding section provides insights on best budgeting practices. Explore our funding section for these resources to estimate your financial needs for your program.
+            If you are on this page, you have reached step 3 of program implementation. To secure funding for your digital literacy program, we recommend partnering with organizations such as Goodwill. The following diagram outlines the steps for creating successful partnerships with organizations.
             </p>
             <br/>
             <br/>
-            <h3>Partnerships for Program Implementation</h3>
-            <p>
-                We also suggest partnering with organizations like Goodwill offices for free program implementation.
-            </p>
+            
+
             <img src={b2}/>
             <br/>
             <br/>
-            <p>
-                
-            </p>
-            <img src={b3} />
+
+  
             </div>
            <br/>
             <br/>
